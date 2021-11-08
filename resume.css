@@ -1,0 +1,161 @@
+/* This is the css for my resume project */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.subhead {
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-left: 1%;
+  color: #84747A;
+  text-align: left;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  font-family: Sinhala MN;
+}
+
+#top {
+  font-family: Helvetica Neue;
+  color: #84747A;
+  text-align: left;
+  font-size: 15px;
+}
+
+.nav-link {
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1.5px;
+    white-space: nowrap;
+    font-family: Sinhala MN;
+}
+
+.nav-link:hover {
+    color: #84747A;
+}
+
+.navbar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #955D59;
+}
+
+#nav-container {
+  padding-left: 10%;
+}
+
+a {
+  color: #84747A;
+}
+
+a:hover {
+  color: #955D59;
+}
+
+.img-wrap {
+  min-width: 340px;
+  max-width: 400px;
+}
+
+body {
+  font-family: Helvetica Neue;
+  font-size: 15px;
+  color: #84747A;
+}
+
+.row {
+  padding-left: 14%;
+  padding-right: 14%;
+  margin: 0 auto;
+
+}
+
+.img-fluid {
+  margin: 0 auto;
+  border: 5px solid #84747A;
+}
+
+.contact {
+  padding-left: 0px;
+  padding-top: 10px;
+  color: #84747A;
+  font-size: 15px;
+  font-family: Sinhala MN;
+  list-style-type: none;
+  text-align: right;
+}
+
+#talk.subhead {
+  padding-top: 35px;
+  text-align: right;
+}
+
+#experience .subhead {
+  color: white;
+}
+
+#education .subhead {
+  color: white;
+}
+
+.jobtitle {
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+.organization {
+  font-weight: 400;
+  font-size: 1.0em;
+  font-style: italic;
+}
+
+.experience {
+  color: white;
+  background-color: #955D59;
+}
+
+.education {
+  background-color: #955D59;
+  text-align: center;
+  color: white;
+  list-style-type: none;
+}
+
+.skills {
+  text-align: left;
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 992px) {
+
+.row {
+  width: 100%;
+  padding: none;
+}
+
+body {
+  width: 100%;
+}
+
+#container {
+  margin: 0 auto;
+}
+
+#talk.subhead {
+  text-align: left;
+}
+
+.contact {
+  text-align: left;
+}
+
+
+}
