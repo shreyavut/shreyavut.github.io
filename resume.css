@@ -2,24 +2,25 @@
 img {
     max-width: 100%;
     vertical-align: middle;
+
 }
 
 .name {
   margin-top: 0px;
-  padding-top: 30px;
+  padding-top: 35px;
   padding-left: 11%;
-  color: #955D59;
+  color: #354739;
   text-align: left;
   font-size: 3em;
-  letter-spacing: 1.5px;
+  letter-spacing: 3px;
   font-family: Sinhala MN;
 }
 
 .subhead {
   margin-top: 0px;
   padding-top: 30px;
-  padding-left: 1%;
-  color: #84747A;
+  padding-left: none;
+  color: black;
   text-align: left;
   font-size: 30px;
   letter-spacing: 1.5px;
@@ -27,10 +28,12 @@ img {
 }
 
 #top {
-  font-family: Helvetica Neue;
-  color: #84747A;
+  font-family: Georgia, serif;
+  color: black;
+  width: 80%;
   text-align: left;
-  font-size: 15px;
+  font-size: 16px;
+  background-color: #EBE5DB;
 }
 
 .nav-link {
@@ -44,7 +47,8 @@ img {
 }
 
 .nav-link:hover {
-    color: #84747A;
+    transition: all 0.35s ease-in-out;
+    color: #CE8523;
 }
 
 .navbar {
@@ -56,7 +60,7 @@ img {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #955D59;
+    background-color: #354739;
 }
 
 #nav-container {
@@ -64,11 +68,11 @@ img {
 }
 
 a {
-  color: #84747A;
+  color: #354739;
 }
 
 a:hover {
-  color: #955D59;
+  color: #CE8523;
 }
 
 .img-wrap {
@@ -83,8 +87,7 @@ body {
 }
 
 .row {
-  padding-left: 14%;
-  padding-right: 14%;
+  width: 80%;
   margin: 0 auto;
 
 }
@@ -92,6 +95,7 @@ body {
 .img-fluid {
   margin: 0 auto;
   border: 5px solid #84747A;
+  display: none;
 }
 
 .contact {
@@ -101,16 +105,21 @@ body {
   font-size: 15px;
   font-family: Sinhala MN;
   list-style-type: none;
-  text-align: right;
+  text-align: left;
+  width: 80%;
 }
 
 #talk.subhead {
-  padding-top: 35px;
-  text-align: right;
+  padding-top: none;
+  text-align: left;
 }
 
 #experience .subhead {
   color: white;
+}
+
+#content {
+  background-color: #EBE5DB;
 }
 
 #education .subhead {
@@ -160,13 +169,7 @@ body {
   margin: 0 auto;
 }
 
-#talk.subhead {
-  text-align: left;
-}
 
 .contact {
   text-align: left;
-}
-
-
 }
