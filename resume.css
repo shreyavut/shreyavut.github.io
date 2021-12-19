@@ -39,7 +39,9 @@
 
 .bi {
   color: #354739;
-  padding-left: 3%;
+  padding-left: 0%;
+  padding-right: 2%;
+  font-size: 2em;
 }
 
 .bi:hover{
@@ -167,9 +169,17 @@ a:hover {
 }
 
 .bi {
-  font-size: .5em;
+  font-size: 1.5em;
+  display: inline;
 }
 
+.bi-linkedin {
+  display: inline;
+}
+
+.nav-link {
+  font-size: .8em;
+}
 
 body {
   width: 100%;
