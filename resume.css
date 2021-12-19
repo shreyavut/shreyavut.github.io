@@ -1,8 +1,6 @@
 /* This is the css for my resume project */
-img {
-    max-width: 100%;
-    vertical-align: middle;
-
+.hero-image {
+  width: 100%;
 }
 
 .name {
@@ -13,24 +11,53 @@ img {
   text-align: left;
   font-size: 3em;
   letter-spacing: 3px;
-  font-family: Sinhala MN;
+  font-family:  Bitter;
+}
+
+.description {
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .subhead {
   margin-top: 0px;
-  padding-top: 30px;
+  padding-top: 40px;
   padding-left: none;
   color: black;
   text-align: left;
-  font-size: 30px;
+  font-family:  Bitter;
   letter-spacing: 1.5px;
-  font-family: Sinhala MN;
+  font-size: 30px;
+}
+
+.paper {
+  font-family:  Bitter;
+  font-size: 30px;
+}
+
+
+.bi {
+  color: #354739;
+  padding-left: 3%;
+}
+
+.bi:hover{
+  color: #CE8523;
+  transition: all 0.35s ease-in-out;
+}
+
+body {
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 #top {
-  font-family: Georgia, serif;
+  font-family: Lato, sans-serif;
   color: black;
-  width: 80%;
+  width: 100%;
+  padding-top: 10px;
   text-align: left;
   font-size: 16px;
   background-color: #EBE5DB;
@@ -43,7 +70,7 @@ img {
     color: white;
     letter-spacing: 1.5px;
     white-space: nowrap;
-    font-family: Sinhala MN;
+    font-family: Bitter;
 }
 
 .nav-link:hover {
@@ -61,18 +88,25 @@ img {
     -ms-flex-align: center;
     align-items: center;
     background-color: #354739;
+
 }
 
 #nav-container {
   padding-left: 10%;
 }
 
+#clips .description {
+  font-size: 18px;
+}
+
 a {
   color: #354739;
+  text-decoration: none;
 }
 
 a:hover {
   color: #CE8523;
+  transition: all 0.35s ease-in-out;
 }
 
 .img-wrap {
@@ -80,17 +114,6 @@ a:hover {
   max-width: 400px;
 }
 
-body {
-  font-family: Helvetica Neue;
-  font-size: 15px;
-  color: #84747A;
-}
-
-.row {
-  width: 80%;
-  margin: 0 auto;
-
-}
 
 .img-fluid {
   margin: 0 auto;
@@ -98,33 +121,24 @@ body {
   display: none;
 }
 
-.contact {
-  padding-left: 0px;
-  padding-top: 10px;
-  color: #84747A;
-  font-size: 15px;
-  font-family: Sinhala MN;
-  list-style-type: none;
-  text-align: left;
-  width: 80%;
-}
 
-#talk.subhead {
-  padding-top: none;
-  text-align: left;
-}
-
-#experience .subhead {
-  color: white;
-}
-
-#content {
+.content {
   background-color: #EBE5DB;
+  color: black;
+  margin: 0 auto
 }
 
-#education .subhead {
-  color: white;
+
+#edskills {
+  background-color: #354739;
+  color: #EBE5DB;
 }
+
+.row {
+  width: 80%;
+  margin: 0 auto;
+}
+
 
 .jobtitle {
   font-weight: 500;
@@ -137,21 +151,12 @@ body {
   font-style: italic;
 }
 
-.experience {
-  color: white;
-  background-color: #955D59;
-}
-
 .education {
-  background-color: #955D59;
-  text-align: center;
-  color: white;
   list-style-type: none;
 }
 
 .skills {
-  text-align: left;
-  list-style-type: none;
+  list-style-type: square;
 }
 
 @media only screen and (max-width: 992px) {
@@ -165,7 +170,7 @@ body {
   width: 100%;
 }
 
-#container {
+.container {
   margin: 0 auto;
 }
 
