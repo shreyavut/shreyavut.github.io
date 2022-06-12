@@ -12,6 +12,8 @@
   font-size: 3em;
   letter-spacing: 3px;
   font-family:  Bitter;
+  background-color: #EBE5DB;
+  padding-bottom: 30px;
 }
 
 .description {
@@ -62,7 +64,7 @@ body {
   padding-top: 10px;
   text-align: left;
   font-size: 16px;
-  background-color: #EBE5DB;
+  /*background-color: #EBE5DB;*/
 }
 
 .nav-link {
@@ -125,15 +127,19 @@ a:hover {
 
 
 .content {
-  background-color: #EBE5DB;
+  /*background-color: #EBE5DB;*/
   color: black;
   margin: 0 auto
+}
+
+#data-icon {
+    font-size: 0.5em;
 }
 
 
 #edskills {
   background-color: #354739;
-  color: #EBE5DB;
+  /*color: #EBE5DB;*/
 }
 
 .row {
