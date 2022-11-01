@@ -10,32 +10,37 @@
   color: #354739;
   text-align: left;
   font-size: 3em;
-  letter-spacing: 3px;
-  font-family:  Bitter;
+  letter-spacing: 1px;
+  font-family: solano-gothic-pro-mvb, sans-serif;
+  font-weight: 600;
+  /*font-family:  Bitter;*/
   background-color: #EBE5DB;
   padding-bottom: 30px;
 }
 
 .description {
-  font-family: Lato, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16px;
 }
 
 .subhead {
   margin-top: 0px;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-left: none;
-  color: black;
   text-align: left;
-  font-family:  Bitter;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
+  color: #354739;
+  font-family: solano-gothic-pro-mvb, sans-serif;
   font-size: 30px;
 }
 
 .paper {
-  font-family:  Bitter;
+  font-family: solano-gothic-pro-mvb, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 30px;
+  padding-top: 10px;
 }
 
 
@@ -52,13 +57,14 @@
 }
 
 body {
-  font-family: Lato, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16px;
 }
 
 #top {
-  font-family: Lato, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   color: black;
   width: 100%;
   padding-top: 10px;
@@ -74,7 +80,7 @@ body {
     color: white;
     letter-spacing: 1.5px;
     white-space: nowrap;
-    font-family: Bitter;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .nav-link:hover {
@@ -111,6 +117,14 @@ a {
 a:hover {
   color: #CE8523;
   transition: all 0.35s ease-in-out;
+}
+
+.data-viz {
+  display: inline-block;
+  padding-top: 20px;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
 
 .img-wrap {
