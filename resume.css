@@ -119,6 +119,14 @@ a:hover {
   transition: all 0.35s ease-in-out;
 }
 
+.crop-viz {
+    display: inline-block;
+    padding-top: 20px;
+    width: 1000%;
+    overflow: hidden;
+    line-height: 0;
+}
+
 .data-viz {
   display: inline-block;
   padding-top: 20px;
