@@ -19,8 +19,8 @@
 }
 
 .description {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   font-style: normal;
   font-size: 15px;
 }
@@ -58,19 +58,19 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 16.5px;
 }
 
 #top {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   color: black;
   width: 100%;
   padding-top: 10px;
   text-align: left;
-  font-size: 15px;
+  font-size: 16.5px;
   /*background-color: #EBE5DB;*/
 }
 
@@ -81,7 +81,7 @@ body {
     color: white;
     letter-spacing: 1.5px;
     white-space: nowrap;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav-link:hover {
@@ -107,7 +107,7 @@ body {
 }
 
 #clips .description {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 a {
